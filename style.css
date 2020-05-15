@@ -1,0 +1,75 @@
+.main-container {
+    background-color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    color:white;
+}
+
+.header-appear {
+    font-size: 4rem;
+    padding: 0;
+    margin: -5px;
+    position: relative;
+    display: inline-block;
+
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    
+}
+
+.middle h4 {    
+    text-align: right;
+    margin: 0;
+    position: relative;
+    display: block;
+    animation: fadein 5s;
+}
+
+.middle p {
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
